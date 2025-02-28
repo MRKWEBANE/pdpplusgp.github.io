@@ -8778,6 +8778,24 @@ textarea.form-control {
   color: #78d5ef !important; /* Light blue color */
 }
 
+/* Add this to your CSS file to style the icons and numbers with light blue */
+.counter-wrap .icon {
+  font-size: 40px; /* Size of the icons */
+  color: #78d5ef; /* Light blue color for icons */
+  transition: color 0.3s ease;
+}
+
+.counter-wrap .number {
+  font-size: 40px; /* Size of the numbers */
+  color: #78d5ef; /* Light blue color for numbers */
+  transition: color 0.3s ease;
+}
+
+/* Optional: Add hover effect for the icon and number */
+.counter-wrap:hover .icon,
+.counter-wrap:hover .number {
+  color: #56c0e6; /* Slightly darker light blue for hover effect */
+}
 
 
 
