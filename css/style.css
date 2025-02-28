@@ -8797,5 +8797,19 @@ textarea.form-control {
   color: #56c0e6; /* Slightly darker light blue for hover effect */
 }
 
+/* Remove the circle effect on the icon */
+.icon {
+  background: none !important;  /* Remove background if it's causing circles */
+  border: none !important;      /* Remove any border if present */
+  padding: 0 !important;        /* Remove padding that could create circles */
+  display: inline-block;        /* Make sure the icon stays inline with text */
+}
+
+.icon span {
+  font-size: 30px;  /* Set the icon size to your desired size */
+  color: #78d5ef;    /* Set the icon color to light blue */
+}
+
+
 
 
