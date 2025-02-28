@@ -8778,34 +8778,6 @@ textarea.form-control {
   color: #78d5ef !important; /* Light blue color */
 }
 
-/* Default border and transition */
-.pricing-entry {
-  border: 2px solid transparent; /* Start with transparent border */
-  transition: all 0.3s ease; /* Smooth transition */
-}
 
-/* When hovering over the entire column */
-.pricing-entry:hover {
-  border-color: #78d5ef !important; /* Light Blue Border on hover */
-}
-
-/* When hovering over the column, change the button appearance */
-.pricing-entry:hover .btn-primary, 
-.pricing-entry:hover .btn-outline-primary {
-  background-color: #78d5ef !important; /* Light Blue button background */
-  border-color: #78d5ef !important; /* Light Blue button border */
-  color: #fff !important; /* White text color on hover */
-}
-
-/* For the btn-outline-primary (bordered button), on hover we change the border color and text color */
-.pricing-entry:hover .btn-outline-primary {
-  color: #78d5ef !important; /* Light Blue text color */
-  border-color: #78d5ef !important; /* Light Blue border */
-}
-
-/* Ensure smooth transition for the button background color and text */
-.pricing-entry .btn-outline-primary {
-  transition: all 0.3s ease;
-}
 
 
