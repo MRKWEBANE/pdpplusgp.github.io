@@ -8778,3 +8778,31 @@ textarea.form-control {
   color: #78d5ef !important; /* Light blue color */
 }
 
+/* Hover effect for pricing columns */
+.pricing-entry {
+  border: 2px solid transparent; /* Default border is transparent */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for the column */
+.pricing-entry:hover {
+  border-color: #78d5ef !important; /* Light Blue Border */
+}
+
+/* Hover effect for the button inside the column */
+.pricing-entry:hover .btn-primary,
+.pricing-entry:hover .btn-outline-primary {
+  background-color: #78d5ef; /* Light Blue button background */
+  border-color: #78d5ef; /* Light Blue button border */
+}
+
+/* Hover effect for the button outline text color */
+.pricing-entry:hover .btn-outline-primary {
+  color: #78d5ef; /* Light Blue text on button */
+}
+
+/* Ensure smooth transition for the buttons */
+.pricing-entry .btn-outline-primary {
+  transition: all 0.3s ease;
+}
+
