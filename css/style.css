@@ -8772,3 +8772,9 @@ textarea.form-control {
   font-size: 40px; /* Adjust the size as needed */
   color: #25D366;  /* WhatsApp Green */
 } 
+
+/* Custom hover color for navbar links */
+.navbar-nav .nav-link:hover {
+  color: #78d5ef !important; /* Light blue color */
+}
+
