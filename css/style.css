@@ -8767,4 +8767,9 @@ textarea.form-control {
     stroke-dashoffset: -35px; }
   100% {
     stroke-dasharray: 89, 200;
-    stroke-dashoffset: -136px; } }
+    stroke-dashoffset: -136px; } 
+.whatsapp-icon i {
+  font-size: 40px; /* Adjust the size as needed */
+  color: #25D366;  /* WhatsApp Green */
+} 
+}
