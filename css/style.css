@@ -8770,24 +8770,24 @@ textarea.form-control {
 
 .whatsapp-icon i {
   font-size: 40px; /* Adjust the size as needed */
-  color: #25D366;  /* WhatsApp Green */
+  color: #000000;  /* WhatsApp Green */
 } 
 
 /* Custom hover color for navbar links */
 .navbar-nav .nav-link:hover {
-  color: #78d5ef !important; /* Light blue color */
+  color: #c68642 !important; /* Light blue color */
 }
 
 /* Add this to your CSS file to style the icons and numbers with light blue */
 .counter-wrap .icon {
   font-size: 40px; /* Size of the icons */
-  color: #78d5ef; /* Light blue color for icons */
+  color: #c68642; /* Light blue color for icons */
   transition: color 0.3s ease;
 }
 
 .counter-wrap .number {
   font-size: 40px; /* Size of the numbers */
-  color: #78d5ef; /* Light blue color for numbers */
+  color: #c68642; /* Light blue color for numbers */
   transition: color 0.3s ease;
 }
 
@@ -8807,7 +8807,7 @@ textarea.form-control {
 
 .icon span {
   font-size: 30px;  /* Set the icon size to your desired size */
-  color: #78d5ef;    /* Set the icon color to light blue */
+  color: #c68642;    /* Set the icon color to light blue */
 }
 
 
